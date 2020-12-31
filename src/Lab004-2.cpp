@@ -32,7 +32,12 @@ int main() {
     // ************************** TO DO **************************
     // Place your code logic after this comment line
     // ***********************************************************
-    cout << "Hello World!" << endl;
+    double budget;
+    // cout << "Hello World!" << endl;
+    cout << "Enter daily budget: ";
+    cin >> budget;
+
+    cout << "Product of the budget and itself: " << budget*budget << endl;
 
     // ********************** DO NOT CHANGE **********************
     // Print a new line and ask user for any key before exiting

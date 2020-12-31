@@ -32,7 +32,12 @@ int main() {
     // ************************** TO DO **************************
     // Place your code logic after this comment line
     // ***********************************************************
-    cout << "Hello World!" << endl;
+    char section[100];
+    // cout << "Hello World!" << endl;
+    cout << "Enter section: ";
+    cin >> section;
+
+    cout << "*** Section: " << section << "***" << endl;
 
     // ********************** DO NOT CHANGE **********************
     // Print a new line and ask user for any key before exiting
